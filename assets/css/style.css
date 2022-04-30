@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Work+Sans:wght@300&display=swap');
+
+* {margin: 0;
+    padding:0;
+    border:none;
+
+}
+body {font-family: Castoro, sans-serif;
+       font-weight: 300;
+       color: #52494C;
+}
+
+/*headings */
+.headback {height: 70px;
+            width: 100%;
+            background-color: #555;
+            
+}
+
+h1 h2 {
+    font-family:Work Sans, sans-serif; 
+    color: black;
+}
+
+#kname {
+    float:left;
+    margin-left: 30px;
+    
+    text-transform: uppercase;
+    color: black;
+}
+
+#menus {
+    font-size: 110%;
+    letter-spacing: 3px;
+    
+    color: #3a3a3a
+}
+
+#menus, #kname {line-height: 70px;}
+
+#menus li  {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+
+#menus a {text-decoration: none;
+
+}
+hr {border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px 0;}
+
+/*kinder kids image */
+
+
+.kinder_kids{height: 200px;
+        width: 33%;
+        margin: 2rem 0;
+        background-color: red;
+        display: inline-block;
+        
+}
+
+#kdleft{
+        background-color:rgba(34, 128, 76, 0.6);
+        left: 60px;
+        bottom: -20px;;
+        position: relative;
+} 
+
+
+#kdright{background-color:gray;
+    right: 60px;
+    bottom: -20px;
+    position: relative;
+
+}
+#kdcenter{position: relative;
+            z-index:2;} 
+
+#rightimage{background: url(../images/image_5.jpg) no-repeat center center; 
+            height: 100%;
+            width: 33%;
+            }
+            
+
+.kdleft{float: left;}
+.kdright{float: right;}
+.centertx{text-align: center;
+color: azure;
+font-weight: bold;}
+
+
+          
+      
