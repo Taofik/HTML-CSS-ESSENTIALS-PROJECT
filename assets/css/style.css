@@ -81,17 +81,22 @@ hr {border-top: 1px solid #3a3a3a;
 #kdcenter{position: relative;
             z-index:2;} 
 
-#rightimage{background: url(../images/image_5.jpg) no-repeat center center; 
-            height: 100%;
+#rightimage{background: url(../images/Kinder_kids.jpg) no-repeat center center; 
+            height: 100px;
             width: 33%;
+            float: right;
             }
             
 
 .kdleft{float: left;}
+
 .kdright{float: right;}
+
 .centertx{text-align: center;
-color: azure;
-font-weight: bold;}
+        color: azure;
+        font-weight: bold;}
+
+.ethos{position: relative;}
 
 
           
