@@ -31,9 +31,9 @@ This is the main website for Famfik Kindergarten. It is the first website of the
 
 *   ### Wireframes
 
-    -   Wireframe on windows - [View](https://github.com/Taofik/HTML-CSS-ESSENTIALS-PROJECT/blob/240a3ab845b3b846b3ba3e3cd8982d69ce554c3b/Famfik%20wireframe%20on%20windows.zip)
+    -   Wireframe on windows - [View](https://github.com/Taofik/HTML-CSS-ESSENTIALS-PROJECT.git)
 
-    -   Wireframe on mobile - [View](https://github.com/Taofik/HTML-CSS-ESSENTIALS-PROJECT/blob/060716db0e0ddb567b80ef1632927c3677afe4bc/Famfik%20wireframe%20on%20mobile.zip)
+    -   Wireframe on mobile - [View](https://github.com/Taofik/HTML-CSS-ESSENTIALS-PROJECT.git)
 
 ## Features
 
