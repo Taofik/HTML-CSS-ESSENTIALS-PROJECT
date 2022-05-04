@@ -3,7 +3,7 @@
 
 This is the main website for Famfik Kindergarten. It is the first website of the school that contains what Famfik is about and how potential customers/parents can get their children to join the school. It is a website designed to be responsive across several devices e.g., desktops and mobiles.
 
-<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
+<h2 align="center"><img src=>View of website across devices(IMAGE):TO BE UPDATED</h2>
 
 ## User Experience (UX)
 
@@ -90,7 +90,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Content
 
--  	All content was written from scratch by the student developers 
+-  	 All content was written from scratch by the student developers 
 
 ### Media
 
@@ -99,4 +99,4 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Acknowledgements
 
--   To be updated.
+-   TO BE UPDATED.
