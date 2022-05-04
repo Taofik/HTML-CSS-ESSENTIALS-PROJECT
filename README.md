@@ -31,11 +31,9 @@ This is the main website for Famfik Kindergarten. It is the first website of the
 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Wireframe on windows - [View](https://github.com/Taofik/HTML-CSS-ESSENTIALS-PROJECT/blob/240a3ab845b3b846b3ba3e3cd8982d69ce554c3b/Famfik%20wireframe%20on%20windows.zip)
 
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    -   Wireframe on mobile - [View](https://github.com/Taofik/HTML-CSS-ESSENTIALS-PROJECT/blob/060716db0e0ddb567b80ef1632927c3677afe4bc/Famfik%20wireframe%20on%20mobile.zip)
 
 ## Features
 
@@ -66,8 +64,8 @@ This is the main website for Famfik Kindergarten. It is the first website of the
 
 The W3C and jsonformatter was used to validate both the Markup and CSS to check any possible syntax error.
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options) - [Results](https://github.com/) TO BE UPDATED.
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/) TO BE UPDATED
 
 
 ### Bugs
