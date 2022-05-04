@@ -7,13 +7,22 @@
 }
 body {font-family: Castoro, sans-serif;
        font-weight: 300;
-       color: #52494C;
+       color: #52494a;
+       scroll-behavior: smooth;
+       overflow-y: scroll;
+}
+
+#background_image{height: 100%;
+    width: 100%;
+    background-color: black;
+
 }
 
 /*headings */
 .headback {height: 70px;
             width: 100%;
             background-color: #555;
+            
             
 }
 
@@ -34,7 +43,7 @@ h1 h2 {
     font-size: 110%;
     letter-spacing: 3px;
     
-    color: #3a3a3a
+    
 }
 
 #menus, #kname {line-height: 70px;}
@@ -44,9 +53,11 @@ h1 h2 {
     list-style-type: none;
     margin-right: 30px;
     
+    
 }
 
 #menus a {text-decoration: none;
+    color: blue;
 
 }
 hr {border-top: 1px solid #3a3a3a;
@@ -56,13 +67,18 @@ hr {border-top: 1px solid #3a3a3a;
 /*kinder kids image */
 
 
+
 .kinder_kids{height: 200px;
-        width: 33%;
+        width: 400px;
+        border-radius: 50%;
         margin: 2rem 0;
         background-color: red;
         display: inline-block;
+        padding-top: 50px;
+        
         
 }
+
 
 #kdleft{
         background-color:rgba(34, 128, 76, 0.6);
@@ -81,11 +97,28 @@ hr {border-top: 1px solid #3a3a3a;
 #kdcenter{position: relative;
             z-index:2;} 
 
-#rightimage{background: url(../images/Kinder_kids.jpg) no-repeat center center; 
-            height: 100px;
-            width: 33%;
+#ethosarea1{position: relative;
+            width: 33%;}
+
+#ethosarea{color: black;
+                padding-left: 5px;
+                
+                }
+            
+
+#rightimagecontainer{width: 500px;
+                    height: 500px;
+                    border-width: 1px;
+                    border-style: solid;
+                    border-color: aquamarine;
+                    
+                    float:calc(left); }
+
+/*#rightimage{background: url(../images/image_5.jpg) no-repeat center center; 
+            height: 100vh;
+            width: 100px;
             float: right;
-            }
+            }*/
             
 
 .kdleft{float: left;}
@@ -94,9 +127,26 @@ hr {border-top: 1px solid #3a3a3a;
 
 .centertx{text-align: center;
         color: azure;
-        font-weight: bold;}
+}
 
-.ethos{position: relative;}
+.centertx > h2 {font-weight: bold;}
+
+.ethos{}
+
+
+
+footer {
+	background-color: #555;
+	text-align: center;
+    padding: 2em;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+	z-index: 1;}
+
+footer > span {color: black;}
+footer > p {color: black;}
 
 
           

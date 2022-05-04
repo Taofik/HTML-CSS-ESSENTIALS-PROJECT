@@ -1,108 +1,104 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h1 align="center">Famfik Kindergaten Website</h1>
 
-Welcome Taofik,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+This is the main website for Famfik Kindergarten. It is the first website of the school that contains what Famfik is about and how potential customers/parents can get their children to join the school. It is a website designed to be responsive across several devices e.g., desktops and mobiles.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h2 align="center"><img src="https://i.ibb.co/TYvTXz1/Example-CI.png"></h2>
 
-## Gitpod Reminders
+## User Experience (UX)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+-   ### User stories
 
-`python3 -m http.server`
+    -   #### First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1.	A first timer wants to easily understand the main purpose of the website from the homepage at first glance. 
+        2. A first timer should be able to navigate around the webpages through the nav links and connects with the admin social media.
+        3. A first timer wants to be able to register their kids.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Returning and Frequent user Goals
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+        1. 	Returning and frequent users wants updates on kindergarten locations
+        2. 	Returning and frequent users wants news on activities planned for children. 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+-   ### Design
+    -   #### Colour Scheme
+        -   The main colour used are grey, and white.
+    -   #### Typography
+        -  	Castoro and Work sans are the main fonts used across the website. However, Sans Serif is set as the receded font in any case the main fonts is in anyway not available for a user. 
+    -   #### Imagery
+        -  	The image used on the homepage and register page is to convince potential parents that their children have high quality learning materials, safe and clean environment. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+*   ### Wireframes
 
-To log into the Heroku toolbelt CLI:
+    -   Home Page Wireframe - [View](https://github.com/)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+    -   Mobile Wireframe - [View](https://github.com/)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    -   Contact Us Page Wireframe - [View](https://github.com/)
 
-------
+## Features
 
-## Release History
+-   	The website is responsive on all devices.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   	The elements are interactive.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Technologies Used
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Languages Used
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Libraries & Programs Used
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Desired google fonts were imported to style.css.
+1. [Git](https://git-scm.com/)
+    - The Gitpod terminal was used to add, commit, and push all changes made to the codes to GitHub.
+1. [GitHub:](https://github.com/)
+    - All projects were stored here.
+1. [Balsamiq:](https://balsamiq.com/)
+    - This was used to create the wireframes.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Testing
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The W3C and jsonformatter was used to validate both the Markup and CSS to check any possible syntax error.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options) - [Results](https://github.com/)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Bugs
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+-  TO BE UPDATED
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Deployment
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### GitHub Pages
 
-------
+The project was deployed to GitHub Pages using the following steps...
 
-## FAQ about the uptime script
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
 
-**Why have you added this script?**
+## Credits
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Content
 
-**How will this affect me?**
+-  	All content was written from scratch by the student developers 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Media
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+-  	The image on homepage was taken from google images with the keyword search “Kindergarten pictures”.
+-  	The background image on register page was taken by the developer.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Acknowledgements
 
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+-   To be updated.
