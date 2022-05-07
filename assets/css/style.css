@@ -22,6 +22,7 @@ body {font-family: Castoro, sans-serif;
 .headback {height: 70px;
             width: 100%;
             background-color: #555;
+            position: relative;
             
             
 }
@@ -64,9 +65,10 @@ h1 h2 {
                 font-size: 110%;}
 
 
-hr {border-top: 1px solid #3a3a3a;
+/*hr {border-top: 1px solid #3a3a3a;
+    background-color: inherit;
     width: 100%;
-    margin: 5px 0;}
+    margin: 5px 0;}*/
 
 /*kinder kids image */
 
@@ -87,8 +89,9 @@ hr {border-top: 1px solid #3a3a3a;
 #kdleft{
         background-color:rgba(34, 128, 76, 0.6);
         left: 60px;
-        bottom: -20px;;
+        bottom: -20px;
         position: relative;
+        display: inline-block;
 } 
 
 
@@ -96,11 +99,13 @@ hr {border-top: 1px solid #3a3a3a;
     right: 60px;
     bottom: -20px;
     position: relative;
+    display: inline-block;
 
 }
 #kdcenter{position: relative;
           background-color: rgba(128, 10, 10, 0.6);
-            z-index:2;} 
+            z-index:2;
+            display: inline-block;} 
 
 #ethosarea1{margin-top: 20px;
             height:auto;
@@ -185,10 +190,11 @@ hr {border-top: 1px solid #3a3a3a;
                  font-size: 90%;
                  text-align: center;
                  text-transform: uppercase;
-                 padding: 10px 0 22px 0;
+                 padding: 10px 0 32px 0;
                  border-color: black;
                  display: block;
 }
+#register-button:hover {font-size: 120%;}
 
 #genders{background: black;
             border: 1px dashed white;
@@ -216,7 +222,7 @@ footer {
 
 footer > span {color: black;}
 footer > p {color: black;}
-
+footer > a:hover {font-size: 120%;}
 
           
       
