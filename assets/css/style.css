@@ -60,6 +60,10 @@ h1 h2 {
     color: black;
 
 }
+#menus a:hover{color: rgba(0, 40, 128, 0.6);
+                font-size: 110%;}
+
+
 hr {border-top: 1px solid #3a3a3a;
     width: 100%;
     margin: 5px 0;}
@@ -137,8 +141,10 @@ hr {border-top: 1px solid #3a3a3a;
 }
 
 /*About famfik*/
-.history > p{color:black;
+.history > p{color:blanchedalmond;
              width: 50%;
+             letter-spacing: normal;
+             word-spacing: normal;
                 
 }
 
