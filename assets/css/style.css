@@ -57,7 +57,7 @@ h1 h2 {
 }
 
 #menus a {text-decoration: none;
-    color: blue;
+    color: black;
 
 }
 hr {border-top: 1px solid #3a3a3a;
@@ -88,57 +88,114 @@ hr {border-top: 1px solid #3a3a3a;
 } 
 
 
-#kdright{background-color:gray;
+#kdright{background-color:rgba(128, 128, 128, 0.6);
     right: 60px;
     bottom: -20px;
     position: relative;
 
 }
 #kdcenter{position: relative;
+          background-color: rgba(128, 10, 10, 0.6);
             z-index:2;} 
 
-#ethosarea1{position: relative;
-            width: 33%;}
+#ethosarea1{margin-top: 20px;
+            height:auto;
+            width: fit-content;
+            border: 1px solid aqua;
+            background-color: rgba(0, 40, 128, 0.6);
+        }
 
 #ethosarea{color: black;
                 padding-left: 5px;
-                
-                }
+                position: relative;
+                width: 50%; 
+                text-align: center;
+                margin:20px 0 30px 0;
+                padding-left: 18rem;           
+}
             
 
-#rightimagecontainer{width: 500px;
-                    height: 500px;
-                    border-width: 1px;
-                    border-style: solid;
-                    border-color: aquamarine;
-                    
-                    float:calc(left); }
+.kdleft{float: left;
+}
 
-/*#rightimage{background: url(../images/image_5.jpg) no-repeat center center; 
-            height: 100vh;
-            width: 100px;
-            float: right;
-            }*/
-            
-
-.kdleft{float: left;}
-
-.kdright{float: right;}
+.kdright{float: right;
+}
 
 .centertx{text-align: center;
         color: azure;
+        
 }
 
 .centertx > h2 {font-weight: bold;}
 
-.ethos{}
+#frontpageimage{background: url(../images/image_6.jpg);
+    background-size: cover;
+    background-position: center;
+    position:relative;
+    clear: left;
+    height: 850px;
+}
 
+/*register section*/
+
+
+
+.register-section{background: url(../images/Image_7.jpg);
+                    background-size: cover;
+                     background-position: center;
+                     position: relative;
+                     clear: left;
+                    height: 900px;}
+
+.register-form{margin: 150px 35% 2 2;
+                background-color: rgba(45, 34, 128, 0.6);
+                color: black;
+                position: relative;
+                left: 25%;
+                padding: 32px;
+                max-width: 300px;
+                border-bottom: 33%;
+                display: block;
+             
+            }
+.input{display: block;
+        width: 90%;
+         background: transparent;
+         margin: 4px 0 15px 0;
+         border: 1.5px solid white;
+         border-radius: 5px;
+         height: 20px;
+
+        }
+#register-button{margin-top: 10px 0 10px 0;
+                 background-color: aqua;
+                 width: 45%;
+                 font-size: 90%;
+                 text-align: center;
+                 text-transform: uppercase;
+                 padding: 10px 0 22px 0;
+                 border-color: black;
+                 display: block;
+}
+
+#genders{background: black;
+            border: 1px dashed white;
+}
+
+/* About famfik*/
+
+#aboutbackground{background: url(../images/image_4.jpg);
+    background-size: cover;
+     background-position: center;
+     position: relative;
+     clear: left;
+    height: 900px;}
 
 
 footer {
 	background-color: #555;
 	text-align: center;
-    padding: 2em;
+    padding: 1em;
     width: 100%;
     position: fixed;
     bottom: 0;

@@ -41,33 +41,36 @@
         <form method="POST" action="https://8000-taofik-htmlcssessential-oar3uxt9puc.ws-eu43.gitpod.io/register.html" class="register-form">
             <h2>Why not join us today!</h2>
             <label for="first_name">First Name</label>
-            <input id="first_name" name="first_names" type="text" class="text_input" placeholder="first name" required>
+            <input id="first_name" name="first_names" type="text" class="input" placeholder="first name" required>
 
             <label for="middle_name">Last Name</label>
-            <input id="middle_name" name="middle_names" type="text" class="text_input" placeholder="middle name">
+            <input id="middle_name" name="middle_names" type="text" class="input" placeholder="middle name">
             
             <label for="last_name">Last Name</label>
-            <input id="last_name" name="last_names" type="text" class="text_input" placeholder="family name" required>
+            <input id="last_name" name="last_names" type="text" class="input" placeholder="family name" required>
 
-            <label for="dob">Date of Birth:</label>
-            <input type="date" id="dob" name="birthday">
-
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" class="input" name="birthday">
+            <p>Gender:</p>
             <label for="mgender">Male</label>
-            <input type="radio" id="mgender" name="gender" value="male" required> 
+            <input type="radio" id="genders" class="radioinput" name="gender" value="male" required> 
             <label for="fgender">Female</label>
-            <input type="radio" id="fgender" name="gender" value="female" required>
-            
+            <input type="radio" id="genders" class="radioinput" name="gender" value="female" required>
+            <br>
             <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" class="text_input" required>
+            <input type="email" id="email"  name="email_address" class="input" required>
+
+            <label for="address">Address</label>
+            <input type="address" id="address" name="residence" class="input" required>
 
             <label for="pnumber">Phone Number</label>
-            <input type="phonenumber" id="pnumber" name="phone_number" class="number" required>
+            <input type="phonenumber" id="pnumber" name="phone_number" class="input" required>
             
             
-            <input class="register-button" type="submit" value="Register">
+            <input id="register-button" class="input" type="submit" value="Register">
         </form>
     </section>
-        <!-- <footer class="contact">
+        <footer class="contact">
 
          <span>Connect with us on:</span>
 
@@ -78,7 +81,7 @@
 
          <p>Copyright © Famfik Kindergarten 2022</p>
 
-     </footer> -->
+     </footer> 
 
     <script src="https://kit.fontawesome.com/b272058183.js" crossorigin="anonymous"></script>
 </body>
