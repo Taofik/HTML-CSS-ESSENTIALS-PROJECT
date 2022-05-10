@@ -174,7 +174,21 @@ h1 h2 {
          border-radius: 5px;
          height: 20px;
 
-        }
+}
+#mgender{font-size: 5rem;
+            font-weight: bold;
+            line-height: 1.1;
+            width: 0.3em;
+            height: 0.3em;
+}
+#fgender{font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.1;
+    width: 0.3em;
+    height: 0.3em;
+
+}
+
 #register-button{margin-top: 10px 0 10px 0;
                  background-color: aqua;
                  width: 45%;
@@ -193,7 +207,8 @@ h1 h2 {
 
 /* About famfik*/
 
-#aboutbackground{background: url(../images/image_4.jpg);
+#aboutbackground{
+    background: url(../images/image_4.jpg);
     background-size: cover;
      background-position: center;
      position: relative;
@@ -224,7 +239,8 @@ footer > span {color: black;
                 letter-spacing: 2px;}
 footer > p {color: black;
             letter-spacing: 2px}
-footer > a:hover {font-size: 120%;}
+footer > a:hover {font-size: 130%;}
+footer > a {color: blue;}
 
 /*media queries*/
 @media screen and (max-width: 1200px) {
