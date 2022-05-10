@@ -21,7 +21,7 @@ body {font-family: Castoro, sans-serif;
 /*headings */
 .headback {height: 70px;
             width: 100%;
-            background-color: #555;
+            background-color: #7d8e95;
             position: relative;
             
             
@@ -144,14 +144,6 @@ h1 h2 {
     height: 850px;
 }
 
-/*About famfik*/
-.history > p{color:blanchedalmond;
-             width: 50%;
-             letter-spacing: normal;
-             word-spacing: normal;
-                
-}
-
 /*register section*/
 
 
@@ -164,7 +156,7 @@ h1 h2 {
                     height: 900px;}
 
 .register-form{margin: 150px 35% 2 2;
-                background-color: rgba(45, 34, 128, 0.6);
+                background-color: rgba(45, 34, 90, 0.6);
                 color: black;
                 position: relative;
                 left: 25%;
@@ -188,7 +180,7 @@ h1 h2 {
                  width: 45%;
                  font-size: 90%;
                  text-align: center;
-                 text-transform: uppercase;
+                 text-transform: capitalize;
                  padding: 10px 0 32px 0;
                  border-color: black;
                  display: block;
@@ -206,11 +198,20 @@ h1 h2 {
      background-position: center;
      position: relative;
      clear: left;
-    height: 900px;}
+    height: 900px;
+}
+
+.history > p{color:#fae6b1;
+    width: 50%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    
+       
+}
 
 
 footer {
-	background-color: #555;
+	background-color: #7d8e95;
 	text-align: center;
     padding: 1em;
     width: 100%;
@@ -219,15 +220,70 @@ footer {
     right: 0;
 	z-index: 1;}
 
-footer > span {color: black;}
-footer > p {color: black;}
+footer > span {color: black;
+                letter-spacing: 2px;}
+footer > p {color: black;
+            letter-spacing: 2px}
 footer > a:hover {font-size: 120%;}
 
 /*media queries*/
 @media screen and (max-width: 1200px) {
+#kname {
+        float:left;
+        margin-left: 30px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: black;
+}
+.headback {height: 70px;
+    width: 100%;
+    background-color: #555;
+    position: relative;  
+}
+#menus, #kname {line-height: 70px;}
+#menus li  {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+.kinder_kids{height: 100px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 2rem 0;
+    background-color: red;
+    display: inline-block;
+    padding-top: 50px;
+}
 
+#kdleft{
+    
+    left: 60px;
+    bottom: -20px;
+    position: relative;
+    display: inline-block;
+} 
+
+
+#kdright{
+right: 60px;
+bottom: -20px;
+position: relative;
+display: inline-block;
+
+}
+#kdcenter{position: relative;
+      
+        z-index:2;
+        display: inline-block;
+}
+
+.kinder_kids > h2{margin-top: -30px;
+
+}
     
 }
+
+
 
 @media screen and (max-width: 950px) {
 #kname{margin-left: 65px;
@@ -245,8 +301,8 @@ footer > a:hover {font-size: 120%;}
 .headback{height: 100px;
     width: 100%;}
 
-.kinder_kids{height: 200px;
-        width: 400px;
+.kinder_kids{height: 100px;
+        width: 300px;
         border-radius: 50%;
         margin: 0 auto;
         position: relative;  
@@ -267,7 +323,22 @@ footer > a:hover {font-size: 120%;}
     width: 50%; 
     text-align: center;
     margin:20px 0 30px 0;
-    padding-left: 10rem; }
+    padding-left: 10rem; 
+}
+
+#aboutbackground{height: 1000px;
+}
+
+.register-form{margin: 150px 35% 2 2;
+   
+    
+    
+    left: 5%;
+    padding: 32px;
+    max-width: 300px;
+    border-bottom: 33%;
+    display: block;
+}
 
 
 
