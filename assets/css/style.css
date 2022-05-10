@@ -155,14 +155,14 @@ h1 h2 {
                      clear: left;
                     height: 900px;}
 
-.register-form{margin: 150px 35% 2 2;
+.register-form{margin: 40px 35px 2px 2px;
                 background-color: rgba(45, 34, 90, 0.6);
                 color: black;
                 position: relative;
                 left: 25%;
                 padding: 32px;
                 max-width: 300px;
-                border-bottom: 33%;
+                border-bottom: 33px;
                 display: block;
              
             }
@@ -177,19 +177,19 @@ h1 h2 {
 }
 #mgender{font-size: 5rem;
             font-weight: bold;
-            line-height: 1.1;
-            width: 0.3em;
-            height: 0.3em;
+            line-height: 1.0;
+            width: 0.2em;
+            height: 0.2em;
 }
 #fgender{font-size: 5rem;
     font-weight: bold;
-    line-height: 1.1;
-    width: 0.3em;
-    height: 0.3em;
+    line-height: 1.0;
+    width: 0.2em;
+    height: 0.2em;
 
 }
 
-#register-button{margin-top: 10px 0 10px 0;
+#register-button{margin: 10px 0 10px 0;
                  background-color: aqua;
                  width: 45%;
                  font-size: 90%;
@@ -215,13 +215,17 @@ h1 h2 {
      clear: left;
     height: 900px;
 }
+.history{margin-top: 25px;}
 
 .history > p{color:#fae6b1;
     width: 50%;
     letter-spacing: 1px;
     word-spacing: 1px;
     
-       
+}
+.about_us{color: black;
+          letter-spacing: 1px;
+          margin: 5px 0 0 15px;
 }
 
 
@@ -342,26 +346,17 @@ display: inline-block;
     padding-left: 10rem; 
 }
 
-#aboutbackground{height: 1000px;
+#aboutbackground{height: 1250px;
 }
+.history {width: 100%;}
 
-.register-form{margin: 150px 35% 2 2;
-   
-    
-    
-    left: 5%;
-    padding: 32px;
-    max-width: 300px;
-    border-bottom: 33%;
-    display: block;
-}
-
-
-
-               
-
-
-    
+.register-form{margin: 40px 35px 2px 2px;
+                left: 5%;
+                padding: 32px;
+                max-width: 300px;
+                border-bottom: 33px;
+                display: block;
+}   
 }
 
 
