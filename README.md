@@ -64,8 +64,8 @@ This is the main website for Famfik Kindergarten. It is the first website of the
 
 The W3C and jsonformatter was used to validate both the Markup and CSS to check any possible syntax error.
 
--   [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options) - [Results](https://github.com/) TO BE UPDATED.
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/) TO BE UPDATED
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options) - [Results](https://github.com/). No errors or warning was shown.
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/). No errors was shown.
 
 
 ### Bugs
