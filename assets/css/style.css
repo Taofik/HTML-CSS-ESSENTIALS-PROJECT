@@ -210,7 +210,7 @@ h1 h2 {
      background-position: center;
      position: relative;
      clear: left;
-    height: 900px;
+    height: 930px;
 }
 .history{margin-top: 25px;}
 
@@ -343,13 +343,7 @@ display: inline-block;
     padding-left: 10rem; 
 }
 
-#aboutbackground{
-    background: url(../images/image_4.jpg);
-    background-size: cover;
-     background-position: center;
-     position: relative;
-     clear: left;
-    height: 1250px;
+#aboutbackground{height: 1250px;
 }
 .history {width: 100%;}
 
@@ -431,13 +425,7 @@ display: inline-block;
 #menus a:hover{color: rgba(0, 40, 128, 0.6);
                 font-size: 105%;}
 
- #aboutbackground{
-                    background: url(../images/image_4.jpg);
-                    background-size: cover;
-                     background-position: center;
-                     position: relative;
-                     clear: left;
-                    height: 1300px;
+ #aboutbackground{height: 1300px;
 }
 
 footer > span {color: black;

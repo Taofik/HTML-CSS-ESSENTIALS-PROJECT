@@ -3,7 +3,7 @@
 
 This is the main website for Famfik Kindergarten. It is the first website of the school that contains what Famfik is about and how potential customers/parents can get their children to join the school. It is a website designed to be responsive across several devices e.g., desktops and mobiles.
 
-<h2 align="center"><img src=>View of website across devices(IMAGE):TO BE UPDATED</h2>
+<h2 align="center"><img src="https://ui.dev/amiresponsive?url=https://taofik.github.io/HTML-CSS-ESSENTIALS-PROJECT/"></h2>
 
 ## User Experience (UX)
 
