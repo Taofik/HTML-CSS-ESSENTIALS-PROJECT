@@ -361,7 +361,7 @@ display: inline-block;
 /*media queries for 830px*/
 @media screen and (max-width: 830px) {
 
-#kname{margin-left: 35px;
+#kname{margin-left: 25px;
         letter-spacing:0px ;
 }
 
@@ -383,9 +383,10 @@ display: inline-block;
         position: relative;
         display: block;  
 }
+
 .center{margin: 20px 0 0 95px;
 }
-.right{margin: -30px -155px 0 0;}
+.right{margin: -23px -155px 0 0;}
 
 #catchmessage1{margin-top: 20px;
     height:550px;
@@ -413,6 +414,21 @@ display: inline-block;
                 border-bottom: 33px;
                 display: block;
 } 
+#menus {
+    font-size:medium;
+    letter-spacing: 0px;  
+}
+
+#menus li  {
+    float: right;
+    list-style-type: none;
+    margin-right: 5px;
+   
+}
+
+#menus a:hover{color: rgba(0, 40, 128, 0.6);
+                font-size: 105%;}
+
 footer > span {color: black;
                 letter-spacing: 0px;
 }
