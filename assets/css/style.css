@@ -243,6 +243,31 @@ footer > p {color: black;
 footer > a:hover {font-size: 130%;}
 footer > a {color: blue;}
 
+/* Contact information*/
+.contactus {
+    color: black;
+    margin-left: 10px;
+}
+fieldset{display: block;
+    float: right;
+    color: black;
+    height: auto;
+
+}
+
+#contact_info{
+    margin-top: -100px;
+}
+.input{width: 50%;
+    background: transparent;
+    margin: 4px 0 15px 0;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    height: 20px;
+}
+
+#x {display: inline;}
+
 
 /*media queries 1200px*/
 @media only screen and (max-width: 1200px) {
