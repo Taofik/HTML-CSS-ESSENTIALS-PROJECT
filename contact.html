@@ -18,23 +18,28 @@
         <a href="index.html">
             <h1 id="kname">Famfik Kindergarten</h1>
         </a>
-        <nav>
-            <ul id="menus">
-                <li>
-                    <a class="active" href="contact.html">Contact information</a>
-                </li>
-                
-                <li>
-                    <a href="register.html">Register</a>
-                </li>
-                <li>
-                    <a href="about.html">About Famfik</a>
-                </li>
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-
-            </ul>
+        <nav id="menus">
+            <input id="toggle" type="checkbox" />
+            <label class='buttons-container' for="toggle">
+            <div class='menu-button'></div>
+            </label>
+        <ul class="menu">
+            <li>
+                <a class="active" href="contact.html">Contact information</a>
+            </li>
+            
+            <li>
+                <a href="register.html">Register</a>
+            </li>
+            <li>
+                <a href="about.html">About Famfik</a>
+            </li>
+            <li>
+                <a  href="index.html">Home</a>
+            </li>
+        </ul>
+              
+        </label>
         </nav>
     </div>
     </section>
@@ -56,7 +61,7 @@
             <label for="yourmessage" class="blockmessage" aria-placeholder="write your message here..">Message</label>
             <br>
             <textarea id="yourmessage" rows="5" cols="97" name="yourmessage" spellcheck="false"></textarea>
-
+            <input id="send-button" class="input" type="submit" value="Send">
         </fieldset>
         </div>
     </section>

@@ -32,6 +32,7 @@ This is the main website for Famfik Kindergarten. It is the first website of the
 *   ### Wireframes
 
     -   Wireframe on windows for about page - [View](./assets/wireframe/desktop/About%20Famfik.png)
+    -   Wireframe on windows for home page - [View](./assets/wireframe/desktop/About%20Famfik.png)
 
     -   Wireframe on mobile - [View](https://github.com/)
 
