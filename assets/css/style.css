@@ -148,9 +148,9 @@ h1 h2 {
 
 .register-section{background: url(../images/Image_7.jpg);
                     background-size: cover;
-                     background-position: center;
+                     background-position:center ;
                      position: relative;
-                     clear: left;
+                     clear: right;
                     height: 900px;}
 
 .register-form{margin: 40px 35px 2px 2px;
@@ -259,7 +259,7 @@ fieldset{display: block;
 }
 
 #contact_info{
-    margin: -130px 0 0 500px;
+    margin: -190px 0 0;
     float: right;
 }
 .input{width: 50%;
@@ -337,6 +337,44 @@ display: inline-block;
 
 .kinder_kids > h2{margin-top: -30px;
 
+}
+
+/* Contact information*/
+.contactus {
+  color: black;
+  margin-left: 10px;
+}
+fieldset{display: block;
+  float: right;
+  color: black;
+  height: auto;
+
+}
+
+#contact_info{
+  margin: -130px 0 0 500px;
+  float: right;
+}
+.input{width: 50%;
+  background: #EDEDED;
+  margin: 4px 0 15px 0;
+  border: 1.5px solid white;
+  border-radius: 5px;
+  height: 20px;
+  
+}
+#send-button{margin: 10px 0 10px 0;
+background-color: red;
+width: 20%;
+font-size: 90%;
+text-align: center;
+padding: 10px 0 32px 0;
+border-color: black;
+display: block;}
+
+#x {display: inline;}
+#yourmessage{background-color: #EDEDED;
+            width: 50%;
 }
     
 }
