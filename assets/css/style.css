@@ -255,12 +255,19 @@ fieldset{display: block;
     float: right;
     color: black;
     height: auto;
-
+    margin: -220px;
 }
 
-#contact_info{
-    margin: -190px 0 0;
-    float: right;
+.icon_container{height: 50px;
+  width: 50px;
+  background-color: rgba(0, 40, 128, 0.6);
+  border-radius: 50%; 
+  margin-left: 40px; 
+}
+i{margin: 15px 0 0 20px ;
+  height: 100%;
+
+
 }
 .input{width: 50%;
     background: #EDEDED;
@@ -655,16 +662,18 @@ footer > a:hover {font-size: 105%;}
 footer > a {color: blue;}  
 }
 
+#frontpageimage{height: 1200px;}
+
 .contactus {
   color: black;
   margin-left: 10px;
   display: block;
 }
 
-#contact_info{
+fieldset{
   margin-left:10px;
   display: block;
-  margin-top: 100px;
+  margin-top: 80px;
   
 }
 .input{width: 50%;
