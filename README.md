@@ -38,6 +38,9 @@ This is the main website for Famfik Kindergarten. It is the first website of the
 
 
     -   Wireframe on mobile for about page - [View](./assets/wireframe/mobile/about%20view%20on%20mobile.png)
+    -   Wireframe on mobile for home page - [View](./assets/wireframe/mobile/home%20view%20on%20mobile.png)
+    -   Wireframe on mobile for register page - [View](./assets/wireframe/mobile/register%20view%20on%20mobile.png)
+    -   Wireframe on mobile for contact page - [View](./assets/wireframe/mobile/contact%20view%20on%20mobile.png)
 
 ## Features
 
