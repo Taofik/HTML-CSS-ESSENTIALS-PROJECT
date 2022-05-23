@@ -247,15 +247,27 @@ footer > a:hover {font-size: 130%;}
 footer > a {color: blue;}
 
 /* Contact information*/
+#x {display:inline-block;}
 .contactus {
     color: black;
     margin-left: 10px;
+    position: relative;
 }
+#directorcontact{color: black;
+  margin-left: 10px;
+  padding-top: 200px;
+  position: relative;
+  display: block;
+  
+
+}
+
 fieldset{display: block;
-    float: right;
+  margin-left: 10px;
     color: black;
     height: auto;
-    margin: -220px;
+    position: relative;
+    
 }
 
 .icon_container{height: 50px;
@@ -286,10 +298,13 @@ i{margin: 15px 0 0 20px ;
   border-color: black;
   display: block;}
 
-#x {display: inline;}
+
 #yourmessage{background-color: #EDEDED;
               width: 50%;
 }
+
+
+
 
 
 /*media queries 1200px*/
@@ -355,13 +370,11 @@ fieldset{display: block;
   float: right;
   color: black;
   height: auto;
+  margin-top: -220px;
 
 }
 
-#contact_info{
-  margin: -130px 0 0 500px;
-  float: right;
-}
+
 .input{width: 50%;
   background: #EDEDED;
   margin: 4px 0 15px 0;
@@ -673,9 +686,16 @@ footer > a {color: blue;}
 fieldset{
   margin-left:10px;
   display: block;
-  margin-top: 80px;
-  
+  margin-top: 140px;
+   
 }
+#directorcontact{margin-top: -110px;
+                  position:relative;
+}
+
+
+
+
 .input{width: 50%;
   background: #EDEDED;
   margin: 4px 0 15px 0;
