@@ -13,12 +13,12 @@ This is the main website for Famfik Kindergarten. It is the first website of the
 
         1.	A first timer wants to easily understand the main purpose of the website from the homepage at first glance. 
         2. A first timer should be able to navigate around the webpages through the nav links and connects with the admin social media.
-        3. A first timer wants to be able to register their kids.
+        3. A first timer wants to be able to register their kids on register page and also contact the school by email or phone.
 
     -   #### Returning and Frequent user Goals
 
         1. 	Returning and frequent users wants updates on kindergarten locations
-        2. 	Returning and frequent users wants news on activities planned for children. 
+        2. 	Returning and frequent users wants news on activities planned for children through the social media links. 
 
 
 -   ### Design
@@ -73,11 +73,14 @@ The W3C and jsonformatter was used to validate both the Markup and CSS to check 
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input+with_options) - [Results](https://github.com/). No errors or warning was shown.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/). No errors was shown.
+### Manual Testing
+-   The website was tested across multiple website using browserstack.
+-   Every website page was viewed on variety of device from laptop, desktop, OneplusNode and Iphone13.
 
 
-### Bugs
+### Known Bugs
 
--  TO BE UPDATED
+-  On mobile device the background image on the about famfik page refuses to load sometimes.
 
 ## Deployment
 
@@ -95,9 +98,14 @@ The project was deployed to GitHub Pages using the following steps...
 
 ## Credits
 
+### Code
+- The background image on home and contact information page was from [view](https://www.pexels.com/)
+- The background image on register and about famfik page was taken by the developer.
+
 ### Content
 
--  	 All content was written from scratch by the student developers 
+-  	 Most content was written from scratch by the student developers.
+-    The hamburger menu css snippet was found here [view](https://codepen.io/alvarotrigo/pen/MWEJEWG)
 
 ### Media
 
@@ -106,4 +114,4 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Acknowledgements
 
--   TO BE UPDATED.
+-   Appreciation to my mentor for continuous tips and feedback.
