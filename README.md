@@ -76,7 +76,7 @@ The W3C and jsonformatter was used to validate both the Markup and CSS to check 
 ### Manual Testing
 -   The website was tested across multiple website using browserstack.
 -   Every website page was viewed on variety of device from laptop, desktop, OneplusNode and Iphone13.
-
+-    Homepage lighthouse  [viewresult](./assets/images/lighthouse%20testing.png)
 
 ### Known Bugs
 
