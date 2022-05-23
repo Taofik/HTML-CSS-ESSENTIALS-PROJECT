@@ -255,7 +255,7 @@ footer > a {color: blue;}
 }
 #directorcontact{color: black;
   margin-left: 10px;
-  padding-top: 200px;
+  padding-top: 40px;
   position: relative;
   display: block;
   
@@ -677,47 +677,64 @@ footer > a {color: blue;}
 
 #frontpageimage{height: 1200px;}
 
+#x {display:inline-block;}
 .contactus {
-  color: black;
+    color: black;
+    margin-left: 10px;
+    position: relative;
+}
+#directorcontact{color: black;
   margin-left: 10px;
-  display: block;
-}
-
-fieldset{
-  margin-left:10px;
-  display: block;
-  margin-top: 140px;
-   
-}
-#directorcontact{margin-top: -110px;
-                  position:relative;
-}
-
-
-
-
-.input{width: 50%;
-  background: #EDEDED;
-  margin: 4px 0 15px 0;
-  border: 1.5px solid white;
-  border-radius: 5px;
-  height: 20px;
   
+  position: relative;
+  display: block;
+  
+
+}
+
+fieldset{display: block;
+  margin-left: 10px;
+  margin-top: 40px;
+    color: black;
+    height: auto;
+    position: relative;
+    
+}
+
+.icon_container{height: 50px;
+  width: 50px;
+  background-color: rgba(0, 40, 128, 0.6);
+  border-radius: 50%; 
+  margin-left: 40px; 
+}
+i{margin: 15px 0 0 20px ;
+  height: 100%;
+
+
+}
+.input{width: 50%;
+    background: #EDEDED;
+    margin: 4px 0 15px 0;
+    border: 1.5px solid white;
+    border-radius: 5px;
+    height: 20px;
+    
 }
 #send-button{margin: 10px 0 10px 0;
-background-color: red;
-width: 20%;
-font-size: 90%;
-text-align: center;
-padding: 10px 0 32px 0;
-border-color: black;
-display: block;}
+  background-color: red;
+  width: 20%;
+  font-size: 90%;
+  text-align: center;
+  padding: 10px 0 32px 0;
+  border-color: black;
+  display: block;}
 
-#x {display: block;}
+
 #yourmessage{background-color: #EDEDED;
-            width: 50%;
-            
+              width: 50%;
 }
+
+
 .history > p {
   color: #fae6b1;
   width: 70%;
