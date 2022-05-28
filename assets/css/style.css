@@ -11,13 +11,18 @@ body {
 	scroll-behavior: smooth;
 	overflow-y: scroll;
 }
+
+.pagecontainer{padding: 0 16px 0 16px;
+
+}
+
 #background_image{
 	height: 100%;
 	width: 100%;
 	background-color: black;
 }
 /*headings */
-.headback {
+.headerbackground {
 	height: 70px;
 	width: 100%;
 	background-color: #7d8e95;
@@ -27,7 +32,7 @@ h1 h2 {
 	font-family:Work Sans, sans-serif;
 	color: black;
 }
-#kname {
+.kindernameclass {
 	float:left;
 	margin-left: 30px;
 	letter-spacing: 2px;
@@ -38,7 +43,7 @@ h1 h2 {
 	font-size: 100%;
 	letter-spacing: 3px;
 }
-#menus, #kname {
+#menus, .kindernameclass {
 	line-height: 70px;
 }
 #menus li {
@@ -55,7 +60,7 @@ h1 h2 {
 }
 #menus a:hover{
 	color: rgba(0, 40, 128, 0.6);
-	font-size: 110%;
+	font-size: 105%;
 }
 .kinder_kids{
 	height: 200px;
@@ -114,13 +119,13 @@ h1 h2 {
 .centertx > h2 {
 	font-weight: bold;
 }
-#frontpageimage{
+.frontpageimage{
 	background: url(../images/image_8.jpg) center center no-repeat;
 	background-size: cover;
-	background-position: center;
 	position:relative;
 	clear: left;
 	height: 850px;
+	
 }
 /*register section*/
 .register-section{
@@ -184,28 +189,44 @@ h1 h2 {
 	border: 1px dashed white;
 }
 /* About famfik*/
-#aboutbackground{
-	background: url(../images/image_4.jpg);
-	background-size: cover;
-	background-position: center;
-	position: relative;
-	clear: left;
-	height: 930px;
-}
-.history{
-	margin-top: 25px;
-}
-.history > p{
-	color:#fae6b1;
-	width: 50%;
-	letter-spacing: 1px;
-	word-spacing: 1px;
+.aboutusrow::after {
+	content: none;
+	clear: both;
+	display: table;
+  }
+
+.aboutuscolumn{float: left;
+	width: 33.33%;
+	padding: 5px;}
+
+img{width:50vw;
+	border-radius: 5px;
+	padding-bottom: 5px;
+	
+	
+	
 }
 .about_us{
 	color: black;
 	letter-spacing: 1px;
-	margin: 5px 0 0 15px;
+	margin: 5px 0 5px 0px;
+	
+	width: 50vw;
+	height: 100vh;
+	
 }
+
+
+.history{
+	margin-top: 25px;
+}
+.history > p{
+	color:black;
+	width: 50%;
+	letter-spacing: 1px;
+	word-spacing: 1px;
+}
+
 footer {
 	background-color: #7d8e95;
 	text-align: center;
@@ -288,20 +309,20 @@ i{
 }
 /*media queries 1200px*/
 @media only screen and (max-width: 1200px) {
-	#kname {
+	.kindernameclass {
 		float:left;
 		margin-left: 30px;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		color: black;
 	}
-	.headback {
+	.headerbackground {
 		height: 70px;
 		width: 100%;
 		background-color: #555;
 		position: relative;
 	}
-	#menus, #kname {
+	#menus .kindernameclass {
 		line-height: 70px;
 	}
 	#menus li {
@@ -378,7 +399,7 @@ i{
 }
 /*media queries 950px*/
 @media only screen and (max-width: 950px) {
-	#kname{
+	.kindernameclass{
 		margin-left: 65px;
 		letter-spacing:1px ;
 	}
@@ -389,7 +410,7 @@ i{
 		margin-left: 55px;
 		margin-bottom: 15px;
 	}
-	.headback{
+	.headerbackground{
 		height: 100px;
 		width: 100%;
 	}
@@ -473,7 +494,7 @@ i{
 }
 /*media queries for 830px*/
 @media screen and (max-width: 830px) {
-	#kname{
+	.kindernameclass{
 		margin-left: 25px;
 		letter-spacing:0px ;
 	}
@@ -484,7 +505,7 @@ i{
 		margin-left: 25px;
 		margin-bottom: 5px;
 	}
-	.headback{
+	.headerbackground{
 		height: 100px;
 		width: 110%;
 	}
@@ -701,7 +722,6 @@ i{
 	width: 50%;
 }
 .history > p {
-	color: #fae6b1;
 	width: 70%;
 	letter-spacing: 1px;
 	word-spacing: 1px;
