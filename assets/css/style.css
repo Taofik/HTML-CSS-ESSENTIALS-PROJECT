@@ -92,7 +92,7 @@ h1 h2 {
 	display: inline-block;
 }
 #catchmessage1{
-	margin-top: 20px;
+	margin-top: 50px;
 	height:auto;
 	width: fit-content;
 	border: 1px solid aqua;
@@ -138,10 +138,10 @@ h1 h2 {
 }
 .register-form{
 	margin: 40px 35px 2px 2px;
-	background-color: rgba(45, 34, 90, 0.6);
+	background-color: rgba(45, 67, 128, 0);
 	color: black;
 	position: relative;
-	left: 25%;
+	left: 15%;
 	padding: 32px;
 	max-width: 300px;
 	border-bottom: 33px;
@@ -252,9 +252,7 @@ footer > a {
 	color: blue;
 }
 /* Contact information*/
-#x {
-	display:inline-block;
-}
+
 .contactus {
 	color: black;
 	margin-left: 10px;
@@ -286,13 +284,14 @@ i{
 	height: 100%;
 }
 .input{
-	width: 50%;
+	width: 100%;
 	background: #EDEDED;
 	margin: 4px 0 15px 0;
 	border: 1.5px solid white;
 	border-radius: 5px;
 	height: 20px;
 }
+
 #send-button{
 	margin: 10px 0 10px 0;
 	background-color: red;
@@ -389,9 +388,7 @@ i{
 		border-color: black;
 		display: block;
 	}
-	#x {
-		display: inline;
-	}
+	
 	#yourmessage{
 		background-color: #EDEDED;
 		width: 50%;
@@ -484,9 +481,7 @@ i{
 		border-color: black;
 		display: block;
 	}
-	#x {
-		display: block;
-	}
+	
 	#yourmessage{
 		background-color: #EDEDED;
 		width: 50%;
@@ -510,19 +505,24 @@ i{
 		width: 110%;
 	}
 	.kinder_kids{
-		height: 90px;
+		height: 100px;
 		width: 270px;
 		border-radius: 50%;
-		margin: 0 auto;
+		
 		position: relative;
-		display: block;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
 	}
 	.center{
-		margin: 20px 0 0 95px;
+		margin: 20px 50px 0 95px;
 	}
 	.right{
 		margin: -23px -155px 0 0;
 	}
+	.left{margin-right: 50px;}
+	
+	
 	#catchmessage1{
 		margin-top: 20px;
 		height:550px;
@@ -663,12 +663,10 @@ i{
 		color: blue;
 	}
 }
-#frontpageimage{
+.frontpageimage{
 	height: 1200px;
 }
-#x {
-	display:inline-block;
-}
+
 .contactus {
 	color: black;
 	margin-left: 10px;
@@ -699,8 +697,8 @@ i{
 	margin: 15px 0 0 20px ;
 	height: 100%;
 }
-.input{
-	width: 80%;
+#contactemail{
+	width: 50%;
 	background: #EDEDED;
 	margin: 4px 0 15px 0;
 	border: 1.5px solid white;
@@ -726,3 +724,5 @@ i{
 	letter-spacing: 1px;
 	word-spacing: 1px;
 }
+
+
