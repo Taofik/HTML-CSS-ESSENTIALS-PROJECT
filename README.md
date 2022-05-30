@@ -78,6 +78,27 @@ The W3C and jsonformatter was used to validate both the Markup and CSS to check 
 -   Every website page was viewed on variety of device from laptop, desktop, OneplusNode and Iphone13.
 -    Homepage lighthouse  [viewresult](./assets/images/lighthouse%20testing.png)
 
+## Testing User Stories from User Experience (UX) Section
+-   #### First Time Visitor Goals
+    
+ 1.	    A first timer wants to easily understand the main purpose of the website from the homepage at first glance.<br> 
+        a. Upon entering the page, the user will see four nav links and a summary of the kindergarten's locations, staffs and kids in numbers.<br>
+        b. when the user scroll down a bit the goal of the kindergarten is clearly visible, which is safety and happiness of the kids.
+ 2.     A first timer should be able to navigate around the webpages through the nav links and connects with the admin social media.<br>
+        a. The user can scroll down the page and navigate to the social media links to connect with the school.<br>
+        b. The can easily hover on the nav links to view other pages, such as the history of the school on aboutpage, get the contact information
+            on the contact page.
+ 3.     A first timer wants to be able to register their kids on register page and also contact the school by email or phone.  <br>
+        a. The user can navigate to the register page, fill the form and send it.
+
+-   #### Returning and Frequent user Goals
+
+ 1. 	Returning and frequent users wants updates on kindergarten locations
+        a. Upon entering the website, the returning and frequent users will be able to see any update on the school location and number of staffs.
+        b. These users can send a message on the contact information links by given their emails and message. 
+ 2. 	Returning and frequent users wants news on activities planned for children through the social media links. 
+        a. These users should be able to see updates on the excursions and related activities through the social media links
+        
 ### Known Bugs
 
 -  On mobile device the background image on the about famfik page refuses to load sometimes.

@@ -335,6 +335,7 @@ i{
 		list-style-type: none;
 		margin-right: 30px;
 	}
+	
 	.kinder_kids{
 		height: 100px;
 		width: 300px;
@@ -422,7 +423,7 @@ border-color: black;
 display: block;
 	}
 	
-	#yourmessage{
+#yourmessage{
 		background-color: #EDEDED;
 		width: 50%;
 	}
@@ -456,6 +457,58 @@ display: block;
 	}
 	.right{
 		margin: -20px -200px 0 0;
+	}
+
+	.menu {
+		display: flex;
+		flex-direction: row;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	.menu > li {
+		margin: 0 1rem;
+		overflow: hidden;
+	}
+	.buttons-container {
+		display: none;
+		height: 100%;
+		width: 30px;
+		cursor: pointer;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	#toggle {
+		display: none;
+	}
+	.menu-button,.menu-button::before,.menu-button::after {
+		display: block;
+		background-color: #fff;
+		position: absolute;
+		height: 4px;
+		width: 30px;
+		transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
+		border-radius: 2px;
+	}
+	.menu-button::before {
+		content: '';
+		margin-top: -8px;
+	}
+	.menu-button::after {
+		content: '';
+		margin-top: 8px;
+	}
+	#toggle:checked + .buttons-container .menu-button::before {
+		margin-top: 0px;
+		transform: rotate(405deg);
+	}
+	#toggle:checked + .buttons-container .menu-button {
+		background: #fff;
+	}
+	#toggle:checked + .buttons-container .menu-button::after {
+		margin-top: 0px;
+		transform: rotate(-405deg);
 	}
 	#catchmessage1{
 		margin-top: 20px;
