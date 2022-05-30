@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Castoro&family=Work+Sans:wght@300&display=swap');
+
 * {
 	margin: 0;
-	padding:0;
-	border:none;
-	
+	padding: 0;
+	border: none;
+
 }
+
 body {
 	font-family: Castoro, sans-serif;
 	font-weight: 300;
 	color: #52494a;
 	scroll-behavior: smooth;
 	overflow-y: scroll;
-	
-}
-
-.pagecontainer{padding: 0 16px 0 16px;
 
 }
 
-#background_image{
+.pagecontainer {
+	padding: 0 16px 0 16px;
+
+}
+
+#background_image {
 	height: 100%;
 	width: 100%;
 	background-color: black;
 }
+
 /*headings */
 .headerbackground {
 	height: 70px;
@@ -30,42 +34,51 @@ body {
 	background-color: #7d8e95;
 	position: relative;
 }
+
 h1 h2 {
-	font-family:Work Sans, sans-serif;
+	font-family: Work Sans, sans-serif;
 	color: black;
 }
+
 .kindernameclass {
-	float:left;
+	float: left;
 	margin-left: 30px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	color: black;
 }
+
 #menus {
 	font-size: 100%;
 	letter-spacing: 3px;
 }
-#menus, .kindernameclass {
+
+#menus,
+.kindernameclass {
 	line-height: 70px;
 }
+
 #menus li {
 	float: right;
 	list-style-type: none;
 	margin-right: 30px;
 }
-.menu{
+
+.menu {
 	margin-top: -70px;
 }
+
 #menus a {
 	text-decoration: none;
 	color: black;
 }
-#menus a:hover{
+
+#menus a:hover {
 	color: rgba(0, 40, 128, 0.6);
 	font-size: 105%;
 }
 
-.kinder_kids{
+.kinder_kids {
 	height: 200px;
 	width: 400px;
 	border-radius: 50%;
@@ -74,72 +87,84 @@ h1 h2 {
 	display: inline-block;
 	padding-top: 50px;
 }
-#kdleft{
-	background-color:rgba(34, 128, 76, 0.6);
+
+#kdleft {
+	background-color: rgba(34, 128, 76, 0.6);
 	left: 60px;
 	bottom: -20px;
 	position: relative;
 	display: inline-block;
 }
-#kdright{
-	background-color:rgba(128, 128, 128, 0.6);
+
+#kdright {
+	background-color: rgba(128, 128, 128, 0.6);
 	right: 60px;
 	bottom: -20px;
 	position: relative;
 	display: inline-block;
 }
-#kdcenter{
+
+#kdcenter {
 	position: relative;
 	background-color: rgba(128, 10, 10, 0.6);
-	z-index:2;
+	z-index: 2;
 	display: inline-block;
 }
-#catchmessage1{
+
+#catchmessage1 {
 	margin-top: 50px;
-	height:auto;
+	height: auto;
 	width: fit-content;
 	border: 1px solid aqua;
 	background-color: rgba(0, 40, 128, 0.6);
 }
-#catchmessage{
+
+#catchmessage {
 	color: black;
 	position: relative;
 	width: 50%;
 	text-align: center;
-	margin:20px 0 30px 0;
+	margin: 20px 0 30px 0;
 	padding-left: 18rem;
 }
-.kdleft{
+
+.kdleft {
 	float: left;
 }
-.kdright{
+
+.kdright {
 	float: right;
 }
-.centertx{
+
+.centertx {
 	text-align: center;
 	color: azure;
 }
-.centertx > h2 {
+
+.centertx>h2 {
 	font-weight: bold;
 }
-.frontpageimage{
+
+.frontpageimage {
 	background: url(../images/image_8.jpg) center center no-repeat;
 	background-size: cover;
-	position:relative;
+	position: relative;
 	clear: left;
 	height: 850px;
-	
+
 }
+
 /*register section*/
-.register-section{
+.register-section {
 	background: url(../images/Image_7.jpg);
 	background-size: cover;
-	background-position:center ;
+	background-position: center;
 	position: relative;
 	clear: right;
 	height: 900px;
 }
-.register-form{
+
+.register-form {
 	margin: 40px 35px 2px 2px;
 	background-color: rgba(45, 67, 128, 0.9);
 	color: black;
@@ -150,7 +175,8 @@ h1 h2 {
 	border-bottom: 33px;
 	display: block;
 }
-.input{
+
+.input {
 	display: block;
 	width: 90%;
 	background: transparent;
@@ -159,21 +185,24 @@ h1 h2 {
 	border-radius: 5px;
 	height: 20px;
 }
-#mgender{
+
+#mgender {
 	font-size: 5rem;
 	font-weight: bold;
 	line-height: 1.0;
 	width: 0.2em;
 	height: 0.2em;
 }
-#fgender{
+
+#fgender {
 	font-size: 5rem;
 	font-weight: bold;
 	line-height: 1.0;
 	width: 0.2em;
 	height: 0.2em;
 }
-#register-button{
+
+#register-button {
 	margin: 10px 0 10px 0;
 	background-color: aqua;
 	width: 45%;
@@ -184,45 +213,53 @@ h1 h2 {
 	border-color: black;
 	display: block;
 }
+
 #register-button:hover {
 	font-size: 120%;
 }
-#genders{
+
+#genders {
 	background: black;
 	border: 1px dashed white;
 }
+
 /* About famfik*/
 .aboutusrow::after {
 	content: none;
 	clear: both;
 	display: table;
-  }
+}
 
-.aboutuscolumn{float: left;
+.aboutuscolumn {
+	float: left;
 	width: 33.33%;
 	height: 100vh;
-	padding: 5px;}
+	padding: 5px;
+}
 
 
-img{width:40vw; 
+img {
+	width: 40vw;
 	border-radius: 5px;
 	padding-bottom: 5px;
 }
-.about_us{
+
+.about_us {
 	color: black;
 	letter-spacing: 1px;
 	margin: 5px 0 5px 0px;
-	width: 50vw;	
+	width: 50vw;
 }
 
 
-.history{
+.history {
 	margin-top: 20px;
 	width: 100%;
 	height: 900px;
 }
-.history > p{
-	color:black;
+
+.history>p {
+	color: black;
 	width: 50%;
 	letter-spacing: 1px;
 	word-spacing: 1px;
@@ -238,45 +275,54 @@ footer {
 	right: 0;
 	z-index: 1;
 }
-footer > span {
+
+footer>span {
 	color: black;
 	letter-spacing: 2px;
 }
-footer > p {
+
+footer>p {
 	color: black;
 	letter-spacing: 2px
 }
-footer > a:hover {
+
+footer>a:hover {
 	font-size: 110%;
 }
-footer > a {
+
+footer>a {
 	color: blue;
 }
+
 /* Contact information*/
-.contactarea{margin-left: 30px;
-				}
+.contactarea {
+	margin-left: 30px;
+}
 
 
 .contactus {
 	color: black;
-	
+
 	position: relative;
 }
-#directorcontact{
+
+#directorcontact {
 	color: black;
-	
+
 	padding-top: 40px;
 	position: relative;
 	display: block;
 }
-form{
+
+form {
 	display: block;
 	margin-left: 10px;
 	color: black;
 	height: auto;
 	position: relative;
 }
-.icon_container{
+
+.icon_container {
 	height: 50px;
 	width: 50px;
 	background-color: rgba(0, 40, 128, 0.6);
@@ -284,11 +330,12 @@ form{
 	margin-left: 40px;
 }
 
-i{
-	margin: 15px 0 0 20px ;
+i {
+	margin: 15px 0 0 20px;
 	height: 100%;
 }
-.input{
+
+.input {
 	width: 100%;
 	background: #EDEDED;
 	margin: 4px 0 15px 0;
@@ -296,9 +343,12 @@ i{
 	border-radius: 5px;
 	height: 20px;
 }
-#contactemail{width: 40%;}
 
-#send-button{
+#contactemail {
+	width: 40%;
+}
+
+#send-button {
 	margin: 10px 0 10px 0;
 	background-color: red;
 	width: 10%;
@@ -308,35 +358,40 @@ i{
 	border-color: black;
 	display: block;
 }
-#yourmessage{
+
+#yourmessage {
 	background-color: #EDEDED;
 	width: 40%;
 }
+
 /*media queries 1200px*/
 @media only screen and (max-width: 1200px) {
 	.kindernameclass {
-		float:left;
+		float: left;
 		margin-left: 30px;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		color: black;
 	}
+
 	.headerbackground {
 		height: 70px;
 		width: 100%;
 		background-color: #555;
 		position: relative;
 	}
+
 	#menus .kindernameclass {
 		line-height: 70px;
 	}
+
 	#menus li {
 		float: right;
 		list-style-type: none;
 		margin-right: 30px;
 	}
-	
-	.kinder_kids{
+
+	.kinder_kids {
 		height: 100px;
 		width: 300px;
 		border-radius: 50%;
@@ -345,117 +400,136 @@ i{
 		display: inline-block;
 		padding-top: 50px;
 	}
-	#kdleft{
+
+	#kdleft {
 		left: 60px;
 		bottom: -20px;
 		position: relative;
 		display: inline-block;
 	}
-	#kdright{
+
+	#kdright {
 		right: 60px;
 		bottom: -20px;
 		position: relative;
 		display: inline-block;
 	}
-	#kdcenter{
+
+	#kdcenter {
 		position: relative;
-		z-index:1;
+		z-index: 1;
 		display: inline-block;
 	}
-	.kinder_kids > h2{
+
+	.kinder_kids>h2 {
 		margin-top: -30px;
 	}
+
 	/* Contact information*/
-	
-.contactarea{margin-left: 30px;
-}
 
-
-.contactus {
-color: black;
-
-position: relative;
-}
-#directorcontact{
-color: black;
-
-padding-top: 40px;
-position: relative;
-display: block;
-}
-form{
-display: block;
-margin-left: 10px;
-color: black;
-height: auto;
-position: relative;
-}
-.icon_container{
-height: 50px;
-width: 50px;
-background-color: rgba(0, 40, 128, 0.6);
-border-radius: 50%;
-margin-left: 40px;
-}
-
-i{
-margin: 15px 0 0 20px ;
-height: 100%;
-}
-.input{
-width: 100%;
-background: #EDEDED;
-margin: 4px 0 15px 0;
-border: 1.5px solid white;
-border-radius: 5px;
-height: 20px;
-}
-#contactemail{width: 40%;}
-
-#send-button{
-margin: 10px 0 10px 0;
-background-color: red;
-width: 10%;
-font-size: 90%;
-text-align: center;
-padding: 10px 0 32px 0;
-border-color: black;
-display: block;
+	.contactarea {
+		margin-left: 30px;
 	}
-	
-#yourmessage{
+
+
+	.contactus {
+		color: black;
+
+		position: relative;
+	}
+
+	#directorcontact {
+		color: black;
+
+		padding-top: 40px;
+		position: relative;
+		display: block;
+	}
+
+	form {
+		display: block;
+		margin-left: 10px;
+		color: black;
+		height: auto;
+		position: relative;
+	}
+
+	.icon_container {
+		height: 50px;
+		width: 50px;
+		background-color: rgba(0, 40, 128, 0.6);
+		border-radius: 50%;
+		margin-left: 40px;
+	}
+
+	i {
+		margin: 15px 0 0 20px;
+		height: 100%;
+	}
+
+	.input {
+		width: 100%;
+		background: #EDEDED;
+		margin: 4px 0 15px 0;
+		border: 1.5px solid white;
+		border-radius: 5px;
+		height: 20px;
+	}
+
+	#contactemail {
+		width: 40%;
+	}
+
+	#send-button {
+		margin: 10px 0 10px 0;
+		background-color: red;
+		width: 10%;
+		font-size: 90%;
+		text-align: center;
+		padding: 10px 0 32px 0;
+		border-color: black;
+		display: block;
+	}
+
+	#yourmessage {
 		background-color: #EDEDED;
 		width: 50%;
 	}
 }
+
 /*media queries 950px*/
 @media only screen and (max-width: 950px) {
-	.kindernameclass{
+	.kindernameclass {
 		margin-left: 65px;
-		letter-spacing:1px ;
+		letter-spacing: 1px;
 	}
-	#menus{
+
+	#menus {
 		clear: left;
 		float: left;
 		line-height: 20px;
 		margin-left: 55px;
 		margin-bottom: 15px;
 	}
-	.headerbackground{
+
+	.headerbackground {
 		height: 100px;
 		width: 100%;
 	}
-	.kinder_kids{
+
+	.kinder_kids {
 		height: 100px;
 		width: 300px;
 		border-radius: 50%;
 		margin: 0 auto;
 		position: relative;
 	}
-	.center{
+
+	.center {
 		margin: 20px 0 0 95px;
 	}
-	.right{
+
+	.right {
 		margin: -20px -200px 0 0;
 	}
 
@@ -466,10 +540,12 @@ display: block;
 		margin: 0;
 		padding: 0;
 	}
-	.menu > li {
+
+	.menu>li {
 		margin: 0 1rem;
 		overflow: hidden;
 	}
+
 	.buttons-container {
 		display: none;
 		height: 100%;
@@ -479,10 +555,14 @@ display: block;
 		justify-content: center;
 		align-items: center;
 	}
+
 	#toggle {
 		display: none;
 	}
-	.menu-button,.menu-button::before,.menu-button::after {
+
+	.menu-button,
+	.menu-button::before,
+	.menu-button::after {
 		display: block;
 		background-color: #fff;
 		position: absolute;
@@ -491,47 +571,57 @@ display: block;
 		transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
 		border-radius: 2px;
 	}
+
 	.menu-button::before {
 		content: '';
 		margin-top: -8px;
 	}
+
 	.menu-button::after {
 		content: '';
 		margin-top: 8px;
 	}
-	#toggle:checked + .buttons-container .menu-button::before {
+
+	#toggle:checked+.buttons-container .menu-button::before {
 		margin-top: 0px;
 		transform: rotate(405deg);
 	}
-	#toggle:checked + .buttons-container .menu-button {
+
+	#toggle:checked+.buttons-container .menu-button {
 		background: #fff;
 	}
-	#toggle:checked + .buttons-container .menu-button::after {
+
+	#toggle:checked+.buttons-container .menu-button::after {
 		margin-top: 0px;
 		transform: rotate(-405deg);
 	}
-	#catchmessage1{
+
+	#catchmessage1 {
 		margin-top: 20px;
-		height:600px;
+		height: 600px;
 		width: 100%;
 		border: 1px solid aqua;
 		background-color: rgba(0, 40, 128, 0.6);
 	}
-	#catchmessage{
+
+	#catchmessage {
 		color: black;
 		position: relative;
 		width: 50%;
 		text-align: center;
-		margin:20px 0 30px 0;
+		margin: 20px 0 30px 0;
 		padding-left: 10rem;
 	}
-	#aboutbackground{
+
+	#aboutbackground {
 		height: 1290px;
 	}
+
 	.history {
 		width: 100%;
 	}
-	.register-form{
+
+	.register-form {
 		margin: 40px 35px 2px 2px;
 		left: 5%;
 		padding: 32px;
@@ -539,123 +629,144 @@ display: block;
 		border-bottom: 33px;
 		display: block;
 	}
+
 	/* Contact information*/
-.contactarea{margin-left: 30px;
-}
-
-
-.contactus {
-color: black;
-
-position: relative;
-}
-#directorcontact{
-color: black;
-
-padding-top: 40px;
-position: relative;
-display: block;
-}
-form{
-display: block;
-margin-left: 10px;
-color: black;
-height: auto;
-position: relative;
-}
-.icon_container{
-height: 50px;
-width: 50px;
-background-color: rgba(0, 40, 128, 0.6);
-border-radius: 50%;
-margin-left: 40px;
-}
-
-i{
-margin: 15px 0 0 20px ;
-height: 100%;
-}
-.input{
-width: 100%;
-background: #EDEDED;
-margin: 4px 0 15px 0;
-border: 1.5px solid white;
-border-radius: 5px;
-height: 20px;
-}
-#contactemail{width: 70%;}
-
-#send-button{
-margin: 10px 0 10px 0;
-background-color: red;
-width: 40%;
-font-size: 90%;
-text-align: center;
-padding: 10px 0 32px 0;
-border-color: black;
-display: block;
+	.contactarea {
+		margin-left: 30px;
 	}
-	
-#yourmessage{
+
+
+	.contactus {
+		color: black;
+
+		position: relative;
+	}
+
+	#directorcontact {
+		color: black;
+
+		padding-top: 40px;
+		position: relative;
+		display: block;
+	}
+
+	form {
+		display: block;
+		margin-left: 10px;
+		color: black;
+		height: auto;
+		position: relative;
+	}
+
+	.icon_container {
+		height: 50px;
+		width: 50px;
+		background-color: rgba(0, 40, 128, 0.6);
+		border-radius: 50%;
+		margin-left: 40px;
+	}
+
+	i {
+		margin: 15px 0 0 20px;
+		height: 100%;
+	}
+
+	.input {
+		width: 100%;
+		background: #EDEDED;
+		margin: 4px 0 15px 0;
+		border: 1.5px solid white;
+		border-radius: 5px;
+		height: 20px;
+	}
+
+	#contactemail {
+		width: 70%;
+	}
+
+	#send-button {
+		margin: 10px 0 10px 0;
+		background-color: red;
+		width: 40%;
+		font-size: 90%;
+		text-align: center;
+		padding: 10px 0 32px 0;
+		border-color: black;
+		display: block;
+	}
+
+	#yourmessage {
 		background-color: #EDEDED;
 		width: 50%;
 	}
 }
+
 /*media queries for 830px*/
 @media screen and (max-width: 830px) {
-	.kindernameclass{
+	.kindernameclass {
 		margin-left: 25px;
-		letter-spacing:0px ;
+		letter-spacing: 0px;
 	}
-	#menus{
+
+	#menus {
 		clear: left;
 		float: left;
 		line-height: 20px;
 		margin-left: 25px;
 		margin-bottom: 5px;
 	}
-	.headerbackground{
+
+	.headerbackground {
 		height: 100px;
 		width: 110%;
 	}
-	.kinder_kids{
+
+	.kinder_kids {
 		height: 100px;
 		width: 270px;
 		border-radius: 50%;
-		
+
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
-	.center{
+
+	.center {
 		margin: 20px 50px 0 95px;
 	}
-	.right{
+
+	.right {
 		margin: -23px -155px 0 0;
 	}
-	.left{margin-right: 50px;}
-	
-	
-	#catchmessage1{
+
+	.left {
+		margin-right: 50px;
+	}
+
+
+	#catchmessage1 {
 		margin-top: 20px;
-		height:550px;
+		height: 550px;
 		width: 110%;
 		border: 1px solid aqua;
 		background-color: rgba(0, 40, 128, 0.6);
 	}
-	#catchmessage{
+
+	#catchmessage {
 		color: black;
 		position: relative;
 		width: 60%;
 		text-align: center;
-		margin:10px 0 30px 0;
+		margin: 10px 0 30px 0;
 		padding-left: 4rem;
 	}
+
 	.history {
 		width: 100%;
 	}
-	.register-form{
+
+	.register-form {
 		margin: 40px 35px 2px 2px;
 		left: 5%;
 		padding: 32px;
@@ -663,6 +774,7 @@ display: block;
 		border-bottom: 33px;
 		display: block;
 	}
+
 	.menu {
 		display: flex;
 		flex-direction: row;
@@ -670,10 +782,12 @@ display: block;
 		margin: 0;
 		padding: 0;
 	}
-	.menu > li {
+
+	.menu>li {
 		margin: 0 1rem;
 		overflow: hidden;
 	}
+
 	.buttons-container {
 		display: none;
 		height: 100%;
@@ -683,10 +797,14 @@ display: block;
 		justify-content: center;
 		align-items: center;
 	}
+
 	#toggle {
 		display: none;
 	}
-	.menu-button,.menu-button::before,.menu-button::after {
+
+	.menu-button,
+	.menu-button::before,
+	.menu-button::after {
 		display: block;
 		background-color: #fff;
 		position: absolute;
@@ -695,260 +813,296 @@ display: block;
 		transition: transform 400ms cubic-bezier(0.23, 1, 0.32, 1);
 		border-radius: 2px;
 	}
+
 	.menu-button::before {
 		content: '';
 		margin-top: -8px;
 	}
+
 	.menu-button::after {
 		content: '';
 		margin-top: 8px;
 	}
-	#toggle:checked + .buttons-container .menu-button::before {
+
+	#toggle:checked+.buttons-container .menu-button::before {
 		margin-top: 0px;
 		transform: rotate(405deg);
 	}
-	#toggle:checked + .buttons-container .menu-button {
+
+	#toggle:checked+.buttons-container .menu-button {
 		background: #fff;
 	}
-	#toggle:checked + .buttons-container .menu-button::after {
+
+	#toggle:checked+.buttons-container .menu-button::after {
 		margin-top: 0px;
 		transform: rotate(-405deg);
 	}
+
 	/* Contact information*/
-.contactarea{margin-left: 30px;
-				}
+	.contactarea {
+		margin-left: 30px;
+	}
 
 
-.contactus {
-	color: black;
-	
-	position: relative;
-}
-#directorcontact{
-	color: black;
-	
-	padding-top: 40px;
-	position: relative;
-	display: block;
-}
-form{
-	display: block;
-	margin-left: 10px;
-	color: black;
-	height: auto;
-	position: relative;
-}
-.icon_container{
-	height: 50px;
-	width: 50px;
-	background-color: rgba(0, 40, 128, 0.6);
-	border-radius: 50%;
-	margin-left: 40px;
+	.contactus {
+		color: black;
+
+		position: relative;
+	}
+
+	#directorcontact {
+		color: black;
+
+		padding-top: 40px;
+		position: relative;
+		display: block;
+	}
+
+	form {
+		display: block;
+		margin-left: 10px;
+		color: black;
+		height: auto;
+		position: relative;
+	}
+
+	.icon_container {
+		height: 50px;
+		width: 50px;
+		background-color: rgba(0, 40, 128, 0.6);
+		border-radius: 50%;
+		margin-left: 40px;
+	}
+
+	i {
+		margin: 15px 0 0 20px;
+		height: 100%;
+	}
+
+	.input {
+		width: 100%;
+		background: #EDEDED;
+		margin: 4px 0 15px 0;
+		border: 1.5px solid white;
+		border-radius: 5px;
+		height: 20px;
+	}
+
+	#contactemail {
+		width: 40%;
+	}
+
+	#send-button {
+		margin: 10px 0 10px 0;
+		background-color: red;
+		width: 10%;
+		font-size: 90%;
+		text-align: center;
+		padding: 10px 0 32px 0;
+		border-color: black;
+		display: block;
+	}
 }
 
-i{
-	margin: 15px 0 0 20px ;
-	height: 100%;
-}
-.input{
-	width: 100%;
-	background: #EDEDED;
-	margin: 4px 0 15px 0;
-	border: 1.5px solid white;
-	border-radius: 5px;
-	height: 20px;
-}
-#contactemail{width: 40%;}
-
-#send-button{
-	margin: 10px 0 10px 0;
-	background-color: red;
-	width: 10%;
-	font-size: 90%;
-	text-align: center;
-	padding: 10px 0 32px 0;
-	border-color: black;
-	display: block;
-}}
-
-	/*media queries for 700px*/
-	@media screen and (max-width: 700px){
+/*media queries for 700px*/
+@media screen and (max-width: 700px) {
 	.buttons-container {
-			display: flex;
-		}
+		display: flex;
+	}
+
 	.menu {
-			position: absolute;
-			top: 0;
-			margin-top: 50px;
-			left: 0;
-			flex-direction: column;
-			width: 100%;
-			justify-content: center;
-			align-items: center;
-			z-index: 9;
-		}
-		#toggle ~ .menu li {
-			height: 0;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-		}
-		#toggle:checked ~ .menu li {
-			border: 1px solid #333;
-			height: 2.5em;
-			padding: 0.5em;
-			transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
-		}
-		.menu > li {
-			display: flex;
-			justify-content: center;
-			margin: 0;
-			padding: 0.5em 0;
-			width: 100%;
-			color: white;
-			background-color: #fff;
-		}
-		.menu > li:not(:last-child) {
-			border-bottom: 1px solid #444;
-		}
-	
-	#aboutbackground{
+		position: absolute;
+		top: 0;
+		margin-top: 50px;
+		left: 0;
+		flex-direction: column;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		z-index: 9;
+	}
+
+	#toggle~.menu li {
+		height: 0;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+	}
+
+	#toggle:checked~.menu li {
+		border: 1px solid #333;
+		height: 2.5em;
+		padding: 0.5em;
+		transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1);
+	}
+
+	.menu>li {
+		display: flex;
+		justify-content: center;
+		margin: 0;
+		padding: 0.5em 0;
+		width: 100%;
+		color: white;
+		background-color: #fff;
+	}
+
+	.menu>li:not(:last-child) {
+		border-bottom: 1px solid #444;
+	}
+
+	#aboutbackground {
 		height: 1500px;
 	}
+
 	.history {
 		width: 100%;
 	}
-	footer > span {
+
+	footer>span {
 		color: black;
 		letter-spacing: 0px;
 	}
-	footer > p {
+
+	footer>p {
 		color: black;
 		letter-spacing: 0px
-}
-	footer > a:hover {
+	}
+
+	footer>a:hover {
 		font-size: 105%;
 	}
-	footer > a {
+
+	footer>a {
 		color: blue;
 	}
 
-.frontpageimage{
-	height: 1200px;
-}
+	.frontpageimage {
+		height: 1200px;
+	}
 
-/* Contact information*/
-.contactarea{margin-left: 30px;
-}
-
-
-.contactus {
-color: black;
-position: relative;
-}
-
-#directorcontact{
-color: black;
-padding-top: 40px;
-position: relative;
-display: block;
-}
-
-form{
-display: block;
-margin-left: 10px;
-color: black;
-height: auto;
-position: relative;
-}
-.icon_container{
-height: 50px;
-width: 50px;
-background-color: rgba(0, 40, 128, 0.6);
-border-radius: 50%;
-margin-left: 40px;
-}
-
-i{
-margin: 15px 0 0 20px ;
-height: 100%;
-}
-.input{
-width: 100%;
-background: #EDEDED;
-margin: 4px 0 15px 0;
-border: 1.5px solid white;
-border-radius: 5px;
-height: 20px;
-}
-#contactemail{width: 80%;}
-
-#send-button{
-margin: 10px 0 10px 0;
-background-color: red;
-width: 50%;
-font-size: 90%;
-text-align: center;
-padding: 10px 0 32px 0;
-border-color: black;
-display: block;
-}
-#yourmessage{
-	background-color: #EDEDED;
-	width: 80%;
-}
-
-.history > p {
-	width: 100%;
-	letter-spacing: 1px;
-	word-spacing: 1px;
-	
-}
-img{width:40vw;
-	height:40vh;
-	border-radius: 5px;
-	padding-bottom: 5px;
-	
-}
-/* About famfik*/
-.aboutusrow::after {
-	content: none;
-	clear: both;
-	display: table;
-  }
-
-.aboutuscolumn{float: left;
-	width: 30%;
-	height: 100vh;
-	padding: 5px;}
+	/* Contact information*/
+	.contactarea {
+		margin-left: 30px;
+	}
 
 
-img{width: 70vw; 
-	border-radius: 5px;
-	padding-bottom: 5px;
-	margin-top: -80px;
+	.contactus {
+		color: black;
+		position: relative;
+	}
+
+	#directorcontact {
+		color: black;
+		padding-top: 40px;
+		position: relative;
+		display: block;
+	}
+
+	form {
+		display: block;
+		margin-left: 10px;
+		color: black;
+		height: auto;
+		position: relative;
+	}
+
+	.icon_container {
+		height: 50px;
+		width: 50px;
+		background-color: rgba(0, 40, 128, 0.6);
+		border-radius: 50%;
+		margin-left: 40px;
+	}
+
+	i {
+		margin: 15px 0 0 20px;
+		height: 100%;
+	}
+
+	.input {
+		width: 100%;
+		background: #EDEDED;
+		margin: 4px 0 15px 0;
+		border: 1.5px solid white;
+		border-radius: 5px;
+		height: 20px;
+	}
+
+	#contactemail {
+		width: 80%;
+	}
+
+	#send-button {
+		margin: 10px 0 10px 0;
+		background-color: red;
+		width: 50%;
+		font-size: 90%;
+		text-align: center;
+		padding: 10px 0 32px 0;
+		border-color: black;
+		display: block;
+	}
+
+	#yourmessage {
+		background-color: #EDEDED;
+		width: 80%;
+	}
+
+	.history>p {
+		width: 100%;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+
+	}
+
+	img {
+		width: 40vw;
+		height: 40vh;
+		border-radius: 5px;
+		padding-bottom: 5px;
+
+	}
+
+	/* About famfik*/
+	.aboutusrow::after {
+		content: none;
+		clear: both;
+		display: table;
+	}
+
+	.aboutuscolumn {
+		float: left;
+		width: 30%;
+		height: 100vh;
+		padding: 5px;
+	}
+
+
+	img {
+		width: 70vw;
+		border-radius: 5px;
+		padding-bottom: 5px;
+		margin-top: -80px;
+	}
+
+	.about_us {
+		color: black;
+		letter-spacing: 1px;
+		margin: 5px 0 5px 0px;
+		width: 90vw;
+	}
+
+
+	.history {
+		margin-top: 20px;
+		width: 100%;
+		height: 900px;
+	}
+
+	.history>p {
+		color: black;
+		letter-spacing: 1px;
+		word-spacing: 1px;
+	}
 }
-.about_us{
-	color: black;
-	letter-spacing: 1px;
-	margin: 5px 0 5px 0px;
-	width: 90vw;	
-}
-
-
-.history{
-	margin-top: 20px;
-	width: 100%;
-	height: 900px;
-}
-.history > p{
-	color:black;
-	letter-spacing: 1px;
-	word-spacing: 1px;
-}
-}
-
-
-
-
